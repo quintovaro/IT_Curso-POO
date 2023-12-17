@@ -21,7 +21,6 @@ public class SumPrimeNumbersClass3 {
     }
 
 	private boolean isPrime(int number,  List<Integer> primesList) {
-//      int sqrt = (int) Math.sqrt(number) + 1;
         for (int prime : primesList) {
 			if (prime * prime > number) {
 			    return true;
@@ -29,12 +28,6 @@ public class SumPrimeNumbersClass3 {
 			if (number % prime == 0) {
 			    return false;
 			}
-//            if (prime > sqrt) {
-//                break;
-//            }
-//            if (number % prime == 0) {
-//                return false;
-//            }
         }
         return true;
 	}
