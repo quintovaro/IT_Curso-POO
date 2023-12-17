@@ -19,7 +19,6 @@ public class SumPrimeNumbersClass {
         System.out.println("Tiempo de ejecución: " + elapsedTimeInMilliseconds + " milisegundos");
 	}
 	
-	
 	private boolean isPrime(int number) {	    
 	    for (int i = 2; i <= Math.sqrt(number); i++) {
 	        if (number % i == 0) {
@@ -28,7 +27,6 @@ public class SumPrimeNumbersClass {
 	    }
 	    return true;
 	}
-	
 
     private int sumPrimes(int quantityPrimes) {
         int sumPrimeNumbers = 0;
@@ -45,5 +43,4 @@ public class SumPrimeNumbersClass {
         }
         return sumPrimeNumbers;
     }
-
 }
