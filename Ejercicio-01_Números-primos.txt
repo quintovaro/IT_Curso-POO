@@ -1,0 +1,31 @@
+Ejercicio 1: Números primos (PrimeNumberOperations)
+Primer ejercicio del curso de Programación Orientada a Objetos. Algoritmos números primos
+
+Todos los detalles de este ejercicio en:
+
+https://github.com/Practicas-master-desarrollo/ProgramacionOO-Ej-1-numeros-primos
+
+Recuerda que la dinámica es la de leer el enunciado de la práctica, crear un repositorio con el código y compararlo con el corregido en las sesiones del Máster.
+
+
+# ProgramacionOO-Ejercicio1-Numeros-primos
+Ejercicio 1 del curso de Programación Orientada a Objetos. Algoritmos números primos
+
+Realizar dos programas, lo mejor que puedas, que calculen:
+
+- La suma de los números primos que hay entre los 50 primeros números
+- La suma de los 50 primeros números primos
+
+El código de estos programas se solicita en Java, aunque eventualmente para estos primeros ejercicios si lo deseas podrías usar también otros lenguajes de programación, ya que es solamente programación estructurada de momento. Si programas en Java, simplemente coloca el código en el método main.
+
+
+Número primo. Fuente: https://es.wikipedia.org/wiki/Número_primo
+                      https://matematicasies.com/Averiguar-si-un-numero-es-primo
+
+En matemáticas, un número primo es un número natural mayor que 1 que tiene únicamente dos divisores positivos distintos: él mismo y el 1. El número 1, por convenio, no se considera ni primo ni compuesto.
+
+Para saber si un número es primo (divisible sólo por el mismo y por uno), lo dividimos sucesivamente por los primeros números primos: 2, 3, 5, 7, 11, ..
+¿Cuándo paramos de dividir?
+
+ Si obtenemos división exacta no es primo
+ Si el cociente es menor que el divisor .. paramos es primo

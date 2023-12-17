@@ -35,7 +35,7 @@ public class SumPrimeNumbers {
 			}
 			System.out.println(prime);	
 		}
-		System.out.println("Suma números primos: " + sumPrimeNumbers);
+		System.out.println("Suma números primos: " + sumPrimeNumbers);				
 	}
 
 }

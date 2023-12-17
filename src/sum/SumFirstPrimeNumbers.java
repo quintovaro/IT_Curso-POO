@@ -4,7 +4,9 @@ public class SumFirstPrimeNumbers {
 
 	public static void main(String[] args) {
 		
-		int lengthPrimeNumberArray = 50;
+        long startTime = System.nanoTime();      	
+		
+		int lengthPrimeNumberArray = 500000;
 		int[] primeNumberArray = new int[lengthPrimeNumberArray];
 		int limitArray = lengthPrimeNumberArray - 1;
 	
@@ -30,11 +32,18 @@ public class SumFirstPrimeNumbers {
 			}
 		} while (idArray < limitArray);
 		
-		idArray = 0;
-		for (int primeNumber: primeNumberArray) {
-			idArray += 1;
-			System.out.println(idArray + ": " + primeNumber);	
-		}
+//		idArray = 0;
+//		for (int primeNumber: primeNumberArray) {
+//			idArray += 1;
+//			System.out.println(idArray + ": " + primeNumber);	
+//		}
 		System.out.println("Suma 50 primeros números primos: " + sumPrimeNumbers);
+		
+			       
+        long endTime = System.nanoTime();
+        long elapsedTime = endTime - startTime;
+        long elapsedTimeInMilliseconds = elapsedTime / 1_000_000;
+        System.out.println("Tiempo de ejecución: " + elapsedTimeInMilliseconds + " milisegundos");
+
 	}
 }
