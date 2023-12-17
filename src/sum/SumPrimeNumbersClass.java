@@ -20,9 +20,7 @@ public class SumPrimeNumbersClass {
 	}
 	
 	
-	private boolean isPrime(int number) {
-	    //assert number > 1 : "Número no válido para verificar si es primo: " + number;
-	    
+	private boolean isPrime(int number) {	    
 	    for (int i = 2; i <= Math.sqrt(number); i++) {
 	        if (number % i == 0) {
 	            return false;

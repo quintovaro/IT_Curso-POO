@@ -32,7 +32,6 @@ public class SumPrimeNumbersClass3 {
         return true;
 	}
 	
-
     private int sumPrimes(int quantityPrimes) {
         List<Integer> primesList = new ArrayList<>();
         int sumPrimes = 0;
