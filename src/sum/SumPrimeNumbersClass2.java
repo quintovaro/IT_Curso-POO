@@ -19,7 +19,6 @@ public class SumPrimeNumbersClass2 {
         System.out.println("Tiempo de ejecución: " + elapsedTimeInMilliseconds + " milisegundos");
 	}
 	
-	
 	private boolean isPrime(int number, int[] primeNumberArray) {
 		for (int primeNumber: primeNumberArray) {						
 			if (primeNumber * primeNumber > number) {
@@ -31,7 +30,6 @@ public class SumPrimeNumbersClass2 {
 		}
 		return false;
 	}
-	
 
     private int sumPrimes(int quantityPrimes) {
     	
